@@ -1,5 +1,5 @@
 <template>
-    <van-tabbar v-model="active" placeholder route >
+    <van-tabbar v-model="active" placeholder route>
         <van-tabbar-item v-for="(item, index) in tabbarData" :key="index" :icon="item.icon" :to="item.to">
             {{ item.title }}
         </van-tabbar-item>
@@ -7,7 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive } from "vue";
 
 const active = ref(0);
 const tabbarData = reactive([
