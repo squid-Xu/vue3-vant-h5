@@ -7,28 +7,27 @@
 </template>
 
 <script setup lang="ts">
-
 const active = ref(0);
 const tabbarData = reactive([
     {
-        icon: "home-o",
-        title: "首页",
+        icon: 'home-o',
+        title: '首页',
         to: {
-            name: "Home"
+            name: 'Home'
         }
     },
     {
-        icon: "search",
-        title: "示例",
+        icon: 'search',
+        title: '示例',
         to: {
-            name: "Demo"
+            name: 'Demo'
         }
     },
     {
-        icon: "friends-o",
-        title: "关于",
+        icon: 'friends-o',
+        title: '关于',
         to: {
-            name: "About"
+            name: 'About'
         }
     }
 ]);

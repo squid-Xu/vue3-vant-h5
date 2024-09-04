@@ -7,5 +7,4 @@
         <van-button type="warning">警告按钮</van-button>
     </div>
 </template>
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
