@@ -11,9 +11,11 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "vant": "^4.9.4",
-    "vue": "^3.4.37"
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
+    "@types/node": "^22.5.3",
     "@vant/auto-import-resolver": "^1.2.1",
     "@vitejs/plugin-vue": "^5.1.2",
     "postcss": "^8.4.44",
